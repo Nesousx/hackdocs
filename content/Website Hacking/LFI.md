@@ -15,4 +15,4 @@ date: 2022-05-04T13:03:15+02:00
 
 Then :
 * Run command in user-agent string:` <? php echo "hello"; ?>`
-* If mail access, then send a mail with a command inside and run the command via ?ls=command (see Beep video)
+* If mail access, then send a mail with a command inside and run the command via ?ls=command (see [Beep video](https://www.youtube.com/watch?v=XJmBpOd__N8&t=963))
