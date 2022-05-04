@@ -1,0 +1,19 @@
+# NextCloud
+._sync*
+.owncloudsync.log
+
+# Hugo
+debug.log
+/public/*
+!/public/.gitkeep
+/resources/_gen/
+hugo_stats.json
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+

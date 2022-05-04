@@ -14,7 +14,7 @@ Sometimes, the several '../../../' can be translated to : //, eg. :
 
 This is better looking, and shorter...
 
-In this case, the LFI can also be used to get a list of all running process by using the info from the `/proc` filesytem. However, since the LFI return "entire" PHP code, it seems it won't be able to execute any code.
+In this case, the LFI can also be used to get a list of all running process by using the info from the `/proc` filesytem. However, since the LFI return "entire" PHP code, it means we won't be able to execute any code.
 
 ## Get the list of running processes
 
