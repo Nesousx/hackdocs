@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>PrivEsc on HackDocs</title><link>/maintaining-access/privesc/</link><description>Recent content in PrivEsc on HackDocs</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 04 May 2022 13:03:15 +0200</lastBuildDate><atom:link href="/maintaining-access/privesc/index.xml" rel="self" type="application/rss+xml"/><item><title>Command history</title><link>/maintaining-access/privesc/command-history/</link><pubDate>Wed, 10 Feb 2021 17:23:05 +0100</pubDate><guid>/maintaining-access/privesc/command-history/</guid><description>Linux Command history can be found /~.bash_history. Make sure to check variant for other such as zsh, fish, etc.
+Also, the history command can be used.
+Windows cmd doskey /history
+Powershell PowerShell command history can be found in :
+Users\$name\appdata\roaming\Microsoft\Windows\PowerShell\PSReadline then gc ConsoleHost_history.txt
+You can also try Get-History | Format-List -Property *</description></item></channel></rss>
