@@ -1,1 +1,1 @@
-[hackdocs](https://cheatsheets.masoopy.com/)
+[HackDocs](https://cheatsheets.masoopy.com/)
