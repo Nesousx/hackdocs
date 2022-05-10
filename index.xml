@@ -43,4 +43,4 @@ Wordpress Classic Wordpress scan Quick scan :
 wpscan --url $site
 Aggressive scan In order to enumerate all plugins :
 wpscan --url $site --plugins-detection aggressive
-With token wpscan --url $site --api-token $token</description></item><item><title/><link>/_footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_footer/</guid><description>hackdocs</description></item></channel></rss>
+With token wpscan --url $site --api-token $token</description></item><item><title/><link>/_footer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/_footer/</guid><description>HackDocs</description></item></channel></rss>
